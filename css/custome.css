@@ -238,3 +238,29 @@ ul.product-list-widget .content{
     position: relative;
     z-index: 50;
 }
+.address-contact ul li i{
+    margin-left: 18px;
+    margin-right: 0;
+}
+.newsletter-area{
+    border: none;
+}
+footer.footer-area{
+border-top: 1px solid #e5e5e5;
+}
+.address-title h2::before{
+    background: #ed3c3d;
+}
+.address-contact ul li i{
+    color: #ed3c3d;
+}
+p.form-row input.button{
+    margin: 0;
+    color: #fff;
+    border: none;
+    background: #ed3c3d;
+}
+p.form-row input.button:hover{
+    background: #333;
+
+}
