@@ -6,12 +6,12 @@
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Contact || General Online Shop</title>
+        <title>Contact || Promos</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
    
         <!-- Place favicon.ico in the root directory -->
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon/home-1.ico">
+<!--		<link rel="shortcut icon" type="image/x-icon" href="img/favicon/home-1.ico">-->
 		
 		<!-- google fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
