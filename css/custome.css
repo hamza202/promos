@@ -225,3 +225,16 @@ ul.product-list-widget .content{
 .newsletter-subscribe > input{
     outline: none;
 }
+.breadcrumbs-area-2{
+    position: relative;
+    top: -24px;
+    z-index: -1;
+}
+.costume-header{
+    position: relative;
+    top: -24px;
+}
+.home-2-header-bottom{
+    position: relative;
+    z-index: 50;
+}
