@@ -105,9 +105,7 @@ li.menu-item > a > img {
 .fashion-title-black h1::before{
     bottom:-5px;
 }
-.sub-menu-left{
-    width: 33%;
-}
+
 .mean-container .mean-nav ul li a{
     text-align: right;
 }
@@ -266,4 +264,25 @@ p.form-row input.button:hover{
 }
 .slider-area-8{
     overflow: hidden;
+}
+.sub-menu-left{
+    width: 100%;
+    float: right;
+}
+.sub-menu-left ul li{
+    display: inline-block !important;
+    width:33%;
+}
+.mega-menu-left {
+    float: right;
+    width: 100%;
+}
+.mega-menu-left ul li{
+    width: 49%;
+    display: inline-block !important;
+}
+.login-form input[type="radio"]{
+    height: auto !important;
+    width: auto !important;
+    margin-right: -15px !important;
 }

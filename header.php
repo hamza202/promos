@@ -94,18 +94,12 @@
                                     </a>
                                     <div class="mega-menu">
                                         <div class="mega-menu-left">
-                                            <h5 class="sub-menu-title">1</h5>
                                             <ul>
                                                 <li><a href="#">شركة1</a></li>
                                                 <li><a href="#">شركة2</a></li>
                                                 <li><a href="#">شركة3</a></li>
                                                 <li><a href="#">شركة4</a></li>
                                                 <li><a href="#">شركة5</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="mega-menu-left">
-                                            <h5 class="sub-menu-title">2</h5>
-                                            <ul>
                                                 <li><a href="#">شركة6</a></li>
                                                 <li><a href="#">شركة7</a></li>
                                                 <li><a href="#">شركة8</a></li>
@@ -137,27 +131,19 @@
                                             <li><a href="#">المنتجات</a></li>
                                             <li><a href="#">الشركات</a>
                                                 <ul>
-                                                    <li><a href="#">الاول</a>
-                                                        <ul>
-                                                            <li><a href="#">شركة1</a></li>
-                                                            <li><a href="#">شركة2</a></li>
-                                                            <li><a href="#">شركة3</a></li>
-                                                            <li><a href="#">شركة4</a></li>
-                                                            <li><a href="#">شركة5</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="#">الثاني</a>
-                                                        <ul>
-                                                            <li><a href="#">شركة6</a></li>
-                                                            <li><a href="#">شركة7</a></li>
-                                                            <li><a href="#">شركة8</a></li>
-                                                            <li><a href="#">شركة9</a></li>
-                                                            <li><a href="#">شركة10</a></li>
-                                                        </ul>
-                                                    </li>
+                                                    <li><a href="#">شركة1</a></li>
+                                                    <li><a href="#">شركة2</a></li>
+                                                    <li><a href="#">شركة3</a></li>
+                                                    <li><a href="#">شركة4</a></li>
+                                                    <li><a href="#">شركة5</a></li>
+                                                    <li><a href="#">شركة6</a></li>
+                                                    <li><a href="#">شركة7</a></li>
+                                                    <li><a href="#">شركة8</a></li>
+                                                    <li><a href="#">شركة9</a></li>
+                                                    <li><a href="#">شركة10</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#">تواصل معنا</a></li>
+                                        <li><a href="#">تواصل معنا</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -197,18 +183,10 @@
                                                                     <li><a href="#">تأجير سيارات</a></li>
                                                                     <li><a href="#">دبابات للبيع</a></li>
                                                                     <li><a href="#">لوحات للبيع</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="sub-menu-left">
-                                                                <ul>
                                                                     <li><a href="#">قطع غيار السيارات</a></li>
                                                                     <li><a href="#">زينة السيارات</a></li>
                                                                     <li><a href="#">جنوط</a></li>
                                                                     <li><a href="#">شاحنة</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="sub-menu-left">
-                                                                <ul>
                                                                     <li><a href="#">معدات ثقيلة</a></li>
                                                                     <li><a href="#">قوارب</a></li>
                                                                     <li><a href="#">سيارات </a></li>
@@ -230,16 +208,8 @@
                                                                 <ul>
                                                                     <li><a href="#">جوالات</a></li>
                                                                     <li><a href="#">تابلت</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="sub-menu-left">
-                                                                <ul>
                                                                     <li><a href="#">قطع غيار موبايل تابلت</a></li>
                                                                     <li><a href="#">موبايل - تابلت أخرى </a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="sub-menu-left">
-                                                                <ul>
                                                                     <li><a href="#">أرقام هواتف مميزة</a></li>
                                                                     <li><a href="#">اكسسوارات موبايل تابلت</a></li>
                                                                 </ul>
@@ -259,16 +229,8 @@
                                                                 <ul>
                                                                     <li><a href="#">اجهزة</a></li>
                                                                     <li><a href="#"> العاب فيديو</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="sub-menu-left">
-                                                                <ul>
                                                                     <li><a href="#">اكسسوارات وقطع غيار</a></li>
                                                                     <li><a href="#">بطاقات شراء </a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="sub-menu-left">
-                                                                <ul>
                                                                     <li><a href="#">بيع حسابات وشخصيات</a></li>
                                                                     <li><a href="#">شخصيات اكشن فيجرز</a></li>
                                                                 </ul>
@@ -290,19 +252,11 @@
                                                                     <li><a href="#"> تلفزيون - شاشات</a></li>
                                                                     <li><a href="#">مكيفات - مراوح</a></li>
                                                                     <li><a href="#"> ثلاجات - فريزر</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="sub-menu-left">
-                                                                <ul>
                                                                     <li><a href="#">سماعات - مكبرات صوت</a></li>
                                                                     <li><a href="#">ستيريو - مسجلات - راديو </a>
                                                                     </li>
                                                                     <li><a href="#">غسالات - نشافات</a></li>
                                                                     <li><a href="#"> افران - ميكرويف</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="sub-menu-left">
-                                                                <ul>
                                                                     <li><a href="#">ريسيفر - دي في دي</a></li>
                                                                     <li><a href="#">مودم - راوتر</a></li>
                                                                     <li><a href="#">كولر - فلاتر ماء</a></li>
@@ -326,19 +280,10 @@
                                                                     <li><a href="#"> تلفزيون - شاشات</a></li>
                                                                     <li><a href="#">مكيفات - مراوح</a></li>
                                                                     <li><a href="#"> ثلاجات - فريزر</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="sub-menu-left">
-                                                                <ul>
                                                                     <li><a href="#">سماعات - مكبرات صوت</a></li>
-                                                                    <li><a href="#">ستيريو - مسجلات - راديو </a>
-                                                                    </li>
+                                                                    <li><a href="#">ستيريو - مسجلات - راديو </a></li>
                                                                     <li><a href="#">غسالات - نشافات</a></li>
                                                                     <li><a href="#"> افران - ميكرويف</a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <div class="sub-menu-left">
-                                                                <ul>
                                                                     <li><a href="#">ريسيفر - دي في دي</a></li>
                                                                     <li><a href="#">مودم - راوتر</a></li>
                                                                     <li><a href="#">كولر - فلاتر ماء</a></li>
