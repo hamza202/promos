@@ -337,6 +337,9 @@ p.form-row input.button:hover{
     position: absolute;
     left: 20px;
 }
+.file-caption .file-caption-name{
+    margin-top: -10px !important;
+}
 /*RTL*/
 .project-social-icon li {
     display: inline-block;

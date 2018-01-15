@@ -281,21 +281,8 @@ input[type="color"]:hover, input[type="email"]:hover, input[type="number"]:hover
   min-width: 100px;
   padding: 2px 10px;
 }
-.btn-default {
-  background: #fff none repeat scroll 0 0;
-  border: 1px solid #000;
-  display: block;
-  font-weight: 600;
-  height: 37px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  transition: all 0.4s ease 0s;
-}
-.btn-default:hover {
-  background: #00bff3 none repeat scroll 0 0 !important;
-  border: 1px solid #00bff3 !important;
-  color: #fff !important;
-}
+
+
 .login-down .form-wrapper-footer > a:hover {
   text-decoration: underline;
 }

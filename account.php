@@ -77,7 +77,8 @@
                         <div class="tab-content">
                             <div id="home" class="tab-pane fade in active">
                                 <h3>HOME</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+
                             </div>
                             <div id="menu1" class="tab-pane fade">
                                 <h3>Menu 1</h3>
@@ -107,6 +108,12 @@
 		<!-- bootstrap js -->
         <script src="js/bootstrap-select.min.js"></script>
 		<!-- owl.carousel js -->
+        <script src="js/fileinput.min.js"></script>
+        <script>
+            $(document).on('ready', function() {
+                $("#b2b").fileinput();
+            });
+        </script>
         <script src="js/owl.carousel.min.js"></script>
 		<!-- jquery-ui js -->
         <script src="js/jquery-ui.min.js"></script>

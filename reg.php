@@ -21,8 +21,10 @@
 		<!-- all css here -->
 		<!-- style css -->
 		<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fileinput.css">
+
     <link rel="stylesheet" href="css/space.css">
-    <link rel="stylesheet" href="css/custome.css">
+
 		<!-- modernizr JS -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -40,7 +42,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="breadcrumbs-title text-center">
-							<h1>انشاء حساب \ تسجيل دخول</h1>
+							<h1>انشاء حساب \ تسجيل دخول </h1>
 							<div class="top-page">
 								<ul>
 									<li><a href="index.php">الرئيسية</a></li>
@@ -70,28 +72,28 @@
                                             اسم المستخدم
                                             <span class="required">*</span>
                                         </label>
-                                        <input type="text" />
+                                        <input type="text" required/>
                                     </p>
                                     <p class="form-row-wide">
                                         <label>
                                             الإيميل
                                             <span class="required">*</span>
                                         </label>
-                                        <input type="email" />
+                                        <input type="email" required/>
                                     </p>
                                     <p class="form-row-wide">
                                         <label>
                                             الرقم المحمول
                                             <span class="required">*</span>
                                         </label>
-                                        <input type="number" />
+                                        <input type="text" required/>
                                     </p>
                                     <p class="form-row-wide">
                                         <label>
                                             الجنسية
                                             <span class="required">*</span>
                                         </label>
-                                        <input type="text" />
+                                        <input type="text" required/>
                                     </p>
                                     <p class="form-row-wide">
                                         <label>
@@ -101,13 +103,10 @@
                                         <input type="text" />
                                     </p>
                                     <p class="form-row-wide">
-                                        <label>
-                                            إضافة صورة شخصية
-                                            <span class="required">*</span>
-                                        </label>
-                                        <input type="text" />
+                                        <label for="b2b" class="required m_bottom_5 d_inline_b">إضافة صورة شخصية<span class="required">*</span> <small>(pdf , jpg , png , jpeg)</small></label>
+                                        <input id="b2b" name="b2b" type="file" class="file" required>
                                     </p>
-                                    <p class="form-row-wide">
+                                    <p class="form-row-wide pt-20">
                                         <label>
                                             نوع العضوية
                                             <span class="required">*</span>
@@ -118,10 +117,10 @@
                                     <!--_________________________________________________________-->
 
                                     <label class="radio-inline">
-<input type="radio" name="optradio">شركة
+<input type="radio" name="optradio" required>شركة
                                     </label>
                                     <label class="radio-inline">
-<input type="radio" name="optradio">عضو
+<input type="radio" name="optradio" required>عضو
                                     </label>
 
                                     <!--_________________________________________________________-->
@@ -130,14 +129,14 @@
                                             كلمة المرور
                                             <span class="required">*</span>
                                         </label>
-                                        <input type="password" />
+                                        <input type="password" id="password" required/>
                                     </p>
                                     <p class="form-row-wide">
                                         <label>
                                             تأكيد كلمة المرور
                                             <span class="required">*</span>
                                         </label>
-                                        <input type="password" />
+                                        <input id="confirm_password" type="password" required/>
                                     </p>
 
                                     <div class="clear"></div>
@@ -157,14 +156,14 @@
 										اسم المستخدم
 											<span class="required">*</span>
 										</label>
-										<input type="email" />
+										<input type="email" required/>
 									</p>
 									<p class="form-row-wide">
 										<label>
 											كلمة المرور
 											<span class="required">*</span>
 										</label>
-										<input type="password" />
+										<input type="password" required/>
 									</p>
 									<div class="clear"></div>
 									<p class="form-row">
@@ -189,6 +188,12 @@
 		<!-- bootstrap js -->
         <script src="js/bootstrap.min.js"></script>
 		<!-- bootstrap js -->
+        <script src="js/fileinput.min.js"></script>
+        <script>
+            $(document).on('ready', function() {
+                $("#b2b").fileinput();
+            });
+        </script>
         <script src="js/bootstrap-select.min.js"></script>
 		<!-- owl.carousel js -->
         <script src="js/owl.carousel.min.js"></script>
@@ -208,6 +213,20 @@
         <script src="js/wow.min.js"></script>
 		<script>
 			new WOW().init();
+
+            var password = document.getElementById("password")
+                , confirm_password = document.getElementById("confirm_password");
+
+            function validatePassword(){
+                if(password.value != confirm_password.value) {
+                    confirm_password.setCustomValidity("كلمة المرور لا تطابق");
+                } else {
+                    confirm_password.setCustomValidity('');
+                }
+            }
+
+            password.onchange = validatePassword;
+            confirm_password.onkeyup = validatePassword;
 		</script>
 		<!-- scrollUp JS -->		
         <script src="js/jquery.scrollUp.min.js"></script>
