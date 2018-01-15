@@ -2,20 +2,20 @@
     <div class="header-top">
         <div class="container">
             <div class="row">
-                <div class="col-sm-6 hidden-xs">
+                <div class="col-xs-6 ">
                     <div class="header-top-left">
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li class="hidden-xs"><a href="#"><i class="fa fa-pinterest"></i></a></li>
                             <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="hidden-xs"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                            <li class="hidden-xs"><a href="#"><i class="fa fa-linkedin"></i></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-6 hidden-xs">
+                <div class="col-xs-6 ">
                     <div class="header-top-right">
                         <ul class="list-inline user-menu pull-left">
                             <li class="menu-item log-in">
@@ -45,7 +45,12 @@
                                         <input type="submit" value="تسجيل الدخول" class="btn-default btn-login"/>
                                         <a href="#" title="Forgot Your Password?">نسيت كلمة المرور؟</a>
                                         <p>
-
+                                        <p>
+                                            <span>هل انت مستخدم جديد؟</span>
+                                            <span>
+														<a href="reg.php" class="register">تسجيل</a>
+													</span>
+                                        </p>
                                         </p>
                                     </div>
                                 </div>

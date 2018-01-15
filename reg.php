@@ -21,6 +21,7 @@
 		<!-- all css here -->
 		<!-- style css -->
 		<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/space.css">
     <link rel="stylesheet" href="css/custome.css">
 		<!-- modernizr JS -->
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -39,7 +40,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="breadcrumbs-title text-center">
-							<h1>My Account</h1>
+							<h1>انشاء حساب \ تسجيل دخول</h1>
 							<div class="top-page">
 								<ul>
 									<li><a href="index.php">الرئيسية</a></li>
@@ -56,9 +57,9 @@
 		<div class="login-content section-padding">
 			<div class="container">
 				<div class="row">
+						<h2 class="my-account-title text-center" style=" background-color: #d82800; color: white; border-color:#d82800; ">التسجيل</h2>
 					<div class="col-md-12" >
-						<h2 class="my-account-title" style=" background-color: #d82800; color: white; border-color:#d82800; ">حسابي</h2>
-					</div>	
+					</div>
 					<div class="login-form">
                         <div class="col-sm-6">
                             <div class="login-content">
@@ -124,7 +125,7 @@
                                     </label>
 
                                     <!--_________________________________________________________-->
-                                    <p class="form-row-wide">
+                                    <p class="form-row-wide pt-20">
                                         <label>
                                             كلمة المرور
                                             <span class="required">*</span>
@@ -180,112 +181,7 @@
 			</div>
 		</div>
 		<!-- Login Area End -->
-		<!-- Latest News Area start -->
-		<div class="blog-area section-padding">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-lg-12">
-						<div class="section-title">
-							<h2><span>LATEST NEWS</span></h2>
-						</div>						
-					</div>
-					<div class="col-sm-4">
-						<div class="single-blog">
-							<div class="post-info-thumbnail">
-								<div class="thumbnail-content">
-									<a href="single-blog.html" class="thumbnail effect-color effect-color-1">
-										<img src="img/blog/1.jpg" alt="" />
-									</a>
-								</div>
-								<div class="blog-post-date">
-									<p class="day">24</p>
-									<p class="month">May</p>
-								</div>
-							</div>
-							<div class="post-info-content">
-								<h3 class="heading-title">
-									<a title="Maecenas vitae urna" href="#">Maecenas vitae urna</a>
-								</h3>
-								<div class="post-info-author">
-									<span class="author">
-										<i class="fa fa-user"></i>
-										<a title="Posts by admin" href="#">Admin</a>
-									</span>
-									<span class="comments-count">
-										<i class="fa fa-comment-o"></i>
-										2 Comments
-									</span>
-								</div>
-								<p class="post-details">Midi indigo vintage boots tortoise-shell sunglasses bomber leather A.P.C. Clutch powder blue oversized sweatshirt slip dress skort sports luxe gold collar collarless skirt</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="single-blog">
-							<div class="post-info-thumbnail">
-								<div class="thumbnail-content">
-									<a href="single-blog.html" class="thumbnail effect-color effect-color-1">
-										<img src="img/blog/2.jpg" alt="" />
-									</a>
-								</div>
-								<div class="blog-post-date">
-									<p class="day">29</p>
-									<p class="month">May</p>
-								</div>
-							</div>
-							<div class="post-info-content">
-								<h3 class="heading-title">
-									<a title="Democratizing" href="#">Democratizing</a>
-								</h3>
-								<div class="post-info-author">
-									<span class="author">
-										<i class="fa fa-user"></i>
-										<a title="Posts by admin" href="#">Admin</a>
-									</span>
-									<span class="comments-count">
-										<i class="fa fa-comment-o"></i>
-										1 Comments
-									</span>
-								</div>
-								<p class="post-details">Midi indigo vintage boots tortoise-shell sunglasses bomber leather A.P.C. Clutch powder blue oversized sweatshirt slip dress skort sports luxe gold collar collarless skirt</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="single-blog">
-							<div class="post-info-thumbnail">
-								<div class="thumbnail-content">
-									<a href="single-blog.html" class="thumbnail effect-color effect-color-1">
-										<img src="img/blog/3.jpg" alt="" />
-									</a>
-								</div>
-								<div class="blog-post-date">
-									<p class="day">05</p>
-									<p class="month">Jun</p>
-								</div>
-							</div>
-							<div class="post-info-content">
-								<h3 class="heading-title">
-									<a title="Braid slipper" href="#">Braid slipper</a>
-								</h3>
-								<div class="post-info-author">
-									<span class="author">
-										<i class="fa fa-user"></i>
-										<a title="Posts by admin" href="#">Admin</a>
-									</span>
-									<span class="comments-count">
-										<i class="fa fa-comment-o"></i>
-										3 Comments
-									</span>
-								</div>
-								<p class="post-details">Midi indigo vintage boots tortoise-shell sunglasses bomber leather A.P.C. Clutch powder blue oversized sweatshirt slip dress skort sports luxe gold collar collarless skirt</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>		
-		<!-- Latest News Area End -->
+
         <?php include ('footer.php') ?>
         <!-- all js here -->
 		<!-- jquery latest version -->

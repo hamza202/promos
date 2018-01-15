@@ -286,3 +286,60 @@ p.form-row input.button:hover{
     width: auto !important;
     margin-right: -15px !important;
 }
+.breadcrumbs-area {
+    position: relative;
+    top: -24px;
+}
+.blog-area {
+    border-bottom: 1px solid #ed3c3d;
+}
+@media (max-width: 767px){
+    .header-top-left {
+        display: block;
+    }
+}
+.single-service-list-widget ul {
+    background: #F8F8F8;
+    padding: 9px;
+    border: 1px solid #F1F1F1;
+}
+.single-sidebar-widget .single-service-list-widget ul li a {
+    font-weight: 400;
+    color: #383838;
+    display: block;
+    line-height: 56px;
+    border-bottom: 1px solid #E6E6E6;
+    position: relative;
+    background: #fff;
+    padding-right: 16px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-right: 4px solid transparent !important;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    font-weight: bold;
+}
+.single-service-list-widget ul li a:hover {
+    border-right-color: #d82800 !important;
+    color: #403C56;
+    font-weight: bold;
+}
+.single-sidebar-widget .single-service-list-widget ul li.active a {
+    border-right-color: #d82800  !important;
+    color: #403C56;
+    font-weight: bold;
+}
+.single-service-list-widget ul li a:after {
+    content: "\f104";
+    font-family: FontAwesome;
+    color: #C8C8C8;
+    font-size: 14px;
+    position: absolute;
+    left: 20px;
+}
+/*RTL*/
+.project-social-icon li {
+    display: inline-block;
+    margin-left: 30px;
+}
+/*END RTL*/
