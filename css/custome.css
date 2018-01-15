@@ -340,9 +340,38 @@ p.form-row input.button:hover{
 .file-caption .file-caption-name{
     margin-top: -10px !important;
 }
+.login textarea {
+    width: 100%;
+    min-width: 100% !important;
+    height: 200px;
+}
+.fileinput-upload-button{
+    display: none;
+}
+.fileinput-cancel-button{
+    display: none;
+}
+.login i.fa-facebook{
+    color: #3b5999;
+}
+.login i.fa-twitter{
+    color: #55acee;
+}
+.login i.fa-youtube-play{
+    color: #cd201f;
+}
+.login i{
+    width: 15px;
+}
 /*RTL*/
 .project-social-icon li {
     display: inline-block;
     margin-left: 30px;
+}
+.note-editor.note-frame .note-editing-area .note-editable{
+    margin-top: 30px;
+}
+.note-icon-caret:before{
+    margin-right: -5px;
 }
 /*END RTL*/

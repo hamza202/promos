@@ -11,8 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
    
         <!-- Place favicon.ico in the root directory -->
-		<link rel="shortcut icon" type="image/x-icon" href="img/favicon/home-1.ico">
-		
+
 		<!-- google fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700' rel='stylesheet' type='text/css'>
@@ -60,122 +59,123 @@
 			<div class="container">
 				<div class="row">
 						<h2 class="my-account-title text-center" style=" background-color: #d82800; color: white; border-color:#d82800; ">التسجيل</h2>
-					<div class="col-md-12" >
-					</div>
-					<div class="login-form">
-                        <div class="col-sm-6">
-                            <div class="login-content">
-                                <h3>تسجيل</h3>
-                                <form action="https://tvlgiao.github.io/html-general-demo/general/post" class="login">
-                                    <p class="form-row-wide">
-                                        <label>
-                                            اسم المستخدم
-                                            <span class="required">*</span>
+					<div class="col-xs-12">
+                        <div class="login-form">
+                            <div class="col-sm-6">
+                                <div class="login-content">
+                                    <h3>تسجيل</h3>
+                                    <form action="#" class="login">
+                                        <p class="form-row-wide">
+                                            <label>
+                                                اسم المستخدم
+                                                <span class="required">*</span>
+                                            </label>
+                                            <input type="text" required/>
+                                        </p>
+                                        <p class="form-row-wide">
+                                            <label>
+                                                الإيميل
+                                                <span class="required">*</span>
+                                            </label>
+                                            <input type="email" required/>
+                                        </p>
+                                        <p class="form-row-wide">
+                                            <label>
+                                                الرقم المحمول
+                                                <span class="required">*</span>
+                                            </label>
+                                            <input type="text" required/>
+                                        </p>
+                                        <p class="form-row-wide">
+                                            <label>
+                                                الجنسية
+                                                <span class="required">*</span>
+                                            </label>
+                                            <input type="text" required/>
+                                        </p>
+                                        <p class="form-row-wide">
+                                            <label>
+                                                الجنس
+                                                <span class="required">*</span>
+                                            </label>
+                                            <input type="text" />
+                                        </p>
+                                        <p class="form-row-wide">
+                                            <label for="b2b" class="required m_bottom_5 d_inline_b">إضافة صورة شخصية<span class="required">*</span> <small>(pdf , jpg , png , jpeg)</small></label>
+                                            <input id="b2b" name="b2b" type="file" class="file" required>
+                                        </p>
+                                        <p class="form-row-wide pt-20">
+                                            <label>
+                                                نوع العضوية
+                                                <span class="required">*</span>
+                                            </label>
+
+                                        </p>
+
+                                        <!--_________________________________________________________-->
+
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio" required>شركة
                                         </label>
-                                        <input type="text" required/>
-                                    </p>
-                                    <p class="form-row-wide">
-                                        <label>
-                                            الإيميل
-                                            <span class="required">*</span>
-                                        </label>
-                                        <input type="email" required/>
-                                    </p>
-                                    <p class="form-row-wide">
-                                        <label>
-                                            الرقم المحمول
-                                            <span class="required">*</span>
-                                        </label>
-                                        <input type="text" required/>
-                                    </p>
-                                    <p class="form-row-wide">
-                                        <label>
-                                            الجنسية
-                                            <span class="required">*</span>
-                                        </label>
-                                        <input type="text" required/>
-                                    </p>
-                                    <p class="form-row-wide">
-                                        <label>
-                                            الجنس
-                                            <span class="required">*</span>
-                                        </label>
-                                        <input type="text" />
-                                    </p>
-                                    <p class="form-row-wide">
-                                        <label for="b2b" class="required m_bottom_5 d_inline_b">إضافة صورة شخصية<span class="required">*</span> <small>(pdf , jpg , png , jpeg)</small></label>
-                                        <input id="b2b" name="b2b" type="file" class="file" required>
-                                    </p>
-                                    <p class="form-row-wide pt-20">
-                                        <label>
-                                            نوع العضوية
-                                            <span class="required">*</span>
+                                        <label class="radio-inline">
+                                            <input type="radio" name="optradio" required>عضو
                                         </label>
 
-                                    </p>
+                                        <!--_________________________________________________________-->
+                                        <p class="form-row-wide pt-20">
+                                            <label>
+                                                كلمة المرور
+                                                <span class="required">*</span>
+                                            </label>
+                                            <input type="password" id="password" required/>
+                                        </p>
+                                        <p class="form-row-wide">
+                                            <label>
+                                                تأكيد كلمة المرور
+                                                <span class="required">*</span>
+                                            </label>
+                                            <input id="confirm_password" type="password" required/>
+                                        </p>
 
-                                    <!--_________________________________________________________-->
+                                        <div class="clear"></div>
+                                        <p class="form-row">
+                                            <input type="submit" value="تسجيل" class="button">
+                                        </p>
+                                    </form>
+                                </div>
+                            </div>
 
-                                    <label class="radio-inline">
-<input type="radio" name="optradio" required>شركة
-                                    </label>
-                                    <label class="radio-inline">
-<input type="radio" name="optradio" required>عضو
-                                    </label>
+                            <div class="col-sm-6">
+                                <div class="login-content">
+                                    <h3>تسجيل دخول</h3>
+                                    <form action="https://tvlgiao.github.io/html-general-demo/general/post" class="login">
+                                        <p class="form-row-wide inline">
+                                            <label>
+                                                اسم المستخدم
+                                                <span class="required">*</span>
+                                            </label>
+                                            <input type="email" required/>
+                                        </p>
+                                        <p class="form-row-wide">
+                                            <label>
+                                                كلمة المرور
+                                                <span class="required">*</span>
+                                            </label>
+                                            <input type="password" required/>
+                                        </p>
+                                        <div class="clear"></div>
+                                        <p class="form-row">
+                                            <input type="submit" value="تسجيل الدخول" class="button">
+                                            <br><br>
+                                            <a href="#">هل فقدت كلمة المرور؟</a>
 
-                                    <!--_________________________________________________________-->
-                                    <p class="form-row-wide pt-20">
-                                        <label>
-                                            كلمة المرور
-                                            <span class="required">*</span>
-                                        </label>
-                                        <input type="password" id="password" required/>
-                                    </p>
-                                    <p class="form-row-wide">
-                                        <label>
-                                            تأكيد كلمة المرور
-                                            <span class="required">*</span>
-                                        </label>
-                                        <input id="confirm_password" type="password" required/>
-                                    </p>
-
-                                    <div class="clear"></div>
-                                    <p class="form-row">
-                                        <input type="submit" value="تسجيل" class="button">
-                                    </p>
-                                </form>
+                                        </p>
+                                    </form>
+                                </div>
                             </div>
                         </div>
+                    </div>
 
-						<div class="col-sm-6">
-							<div class="login-content">
-								<h3>تسجيل دخول</h3>
-								<form action="https://tvlgiao.github.io/html-general-demo/general/post" class="login">
-									<p class="form-row-wide inline">
-										<label>
-										اسم المستخدم
-											<span class="required">*</span>
-										</label>
-										<input type="email" required/>
-									</p>
-									<p class="form-row-wide">
-										<label>
-											كلمة المرور
-											<span class="required">*</span>
-										</label>
-										<input type="password" required/>
-									</p>
-									<div class="clear"></div>
-									<p class="form-row">
-										<input type="submit" value="تسجيل الدخول" class="button">
-                                        <br><br>
-										<a href="#">هل فقدت كلمة المرور؟</a>
-
-									</p>
-								</form>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
