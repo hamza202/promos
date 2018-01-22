@@ -224,7 +224,7 @@
                         </div>
                         <div class="product-item">
                             <div class="section-title-3">
-                                <h2>الأكثر رواجا</h2>
+                                <h2>منتجات الشركة</h2>
                             </div>
                             <div class="product-list-curosel-2 indicator-style" dir="ltr">
                                 <div class="single-product-inner">
@@ -396,7 +396,7 @@
 
                         <div class="product-item">
                             <div class="section-title-3">
-                                <h2>الأكثر مبيعا</h2>
+                                <h2>عقارات الشركة</h2>
                             </div>
                             <div class="product-list-curosel-2 indicator-style" dir="ltr">
                                 <div class="single-product-inner">

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f2f34b-c0a4-4229-a713-f75c0bfdafc6" name="Default" comment="three">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/custome.css" afterPath="$PROJECT_DIR$/css/custome.css" />
-      <change beforePath="$PROJECT_DIR$/footer.php" afterPath="$PROJECT_DIR$/footer.php" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/profile.php" afterPath="$PROJECT_DIR$/profile.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +16,8 @@
       <file leaf-file-name="profile.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="398" column="52" lean-forward="true" selection-start-line="398" selection-start-column="52" selection-end-line="398" selection-end-column="52" />
+            <state relative-caret-position="238">
+              <caret line="226" column="49" lean-forward="false" selection-start-line="226" selection-start-column="49" selection-end-line="226" selection-end-column="49" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -28,8 +25,8 @@
                 <element signature="n#div#3;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#4;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#5;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <marker date="1516613063336" expanded="true" signature="980:1133" ph="..." />
-                <marker date="1516613063336" expanded="true" signature="1073:1101" ph="..." />
+                <marker date="1516613219293" expanded="true" signature="980:1133" ph="..." />
+                <marker date="1516613219293" expanded="true" signature="1073:1101" ph="..." />
               </folding>
             </state>
           </provider>
@@ -178,7 +175,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -264,15 +261,15 @@
       <workItem from="1516038687630" duration="9112000" />
       <workItem from="1516098106015" duration="8812000" />
       <workItem from="1516609480914" duration="2110000" />
-      <workItem from="1516611977846" duration="1122000" />
+      <workItem from="1516611977846" duration="1242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76635000" />
+    <option name="totallyTimeSpent" value="76755000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18374817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -682,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="398" column="52" lean-forward="true" selection-start-line="398" selection-start-column="52" selection-end-line="398" selection-end-column="52" />
+        <state relative-caret-position="238">
+          <caret line="226" column="49" lean-forward="false" selection-start-line="226" selection-start-column="49" selection-end-line="226" selection-end-column="49" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -691,8 +688,8 @@
             <element signature="n#div#3;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#4;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#5;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1516613063336" expanded="true" signature="980:1133" ph="..." />
-            <marker date="1516613063336" expanded="true" signature="1073:1101" ph="..." />
+            <marker date="1516613219293" expanded="true" signature="980:1133" ph="..." />
+            <marker date="1516613219293" expanded="true" signature="1073:1101" ph="..." />
           </folding>
         </state>
       </provider>
