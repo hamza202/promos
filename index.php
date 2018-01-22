@@ -541,7 +541,7 @@
                                                                                            class="fa fa-twitter"></i></a>
                                                     <a class="add-to-compare" href="#"><i aria-hidden="true"
                                                                                           class="fa fa-google-plus"></i></a>
-                                                  
+
                                                 </div>
                                             </div>
                                         </div>
@@ -574,7 +574,7 @@
                                                                                            class="fa fa-twitter"></i></a>
                                                     <a class="add-to-compare" href="#"><i aria-hidden="true"
                                                                                           class="fa fa-google-plus"></i></a>
-                                              
+
                                                 </div>
                                             </div>
                                         </div>
@@ -607,7 +607,7 @@
                                                                                            class="fa fa-twitter"></i></a>
                                                     <a class="add-to-compare" href="#"><i aria-hidden="true"
                                                                                           class="fa fa-google-plus"></i></a>
-                                                  
+
                                                 </div>
                                             </div>
                                         </div>
@@ -1427,59 +1427,6 @@
         </div>
     </section>
     <!-- Blog Area End -->
-    <!-- News Letter Area Start -->
-    <section class="newsletter-area newsletter-8">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 col-xs-12">
-                    <div class="newsletter-form">
-                        <div class="footer-top-widget">
-                            <h3 class="newsletter-title">اشترك بأخر الأخبار</h3>
-                            <span>سوف نرسل لك اخر الأخبار</span>
-                        </div>
-                        <div class="newsletter-subscribe">
-                            <input type="text" placeholder="بريدك الالكتروني"/>
-                            <button type="submit">
-                                <i aria-hidden="true" class="fa fa-paper-plane"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-xs-12">
-                    <div class="follow-me">
-                        <div class="footer-top-widget">
-                            <h3 class="newsletter-title">تابعنا</h3>
-                        </div>
-                        <div class="social-icons">
-                            <ul>
-                                <li class="icon-facebook">
-                                    <a title="Become our fan" href="#">
-                                        <i class="fa fa-facebook"></i>
-                                    </a>
-                                </li>
-                                <li class="icon-twitter">
-                                    <a title="Follow us" href="#">
-                                        <i class="fa fa-twitter"></i>
-                                    </a>
-                                </li>
-                                <li class="icon-google">
-                                    <a title="Get updates" href="#">
-                                        <i class="fa fa-google-plus"></i>
-                                    </a>
-                                </li>
-                                <li class="icon-pin">
-                                    <a title="See Us" href="#">
-                                        <i class="fa fa-pinterest"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- News Letter Area End -->
     <!-- Footer Area Start -->
     <?php include ('footer.php')?>
     <!-- Footer Area End -->
