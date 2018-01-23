@@ -21,7 +21,8 @@ body{
     left: 15px;
 }
 #wrapper.home-indicator-style-two,
-.breadcrumbs-title h1{
+.breadcrumbs-title h1,
+.btn-readmore-2{
     font-family: 'JF Flat Regular',Sans-Serif !important;
 }
 .mega-menu, .main-sub-menu{
@@ -742,8 +743,40 @@ p.form-row input.button:hover{
     color: #222;
 }
 
-
+.op-hover:focus{
+    background-color: #ed3c3d !important;
+}
+.custom-social-icon li{
+    margin: 0;
+    margin-left: 20px !important;
+}
+.custom-social-icon a:hover {
+    color: #d82800 !important;
+}
+p.font-15{
+    font-size: 15px;
+}
+.single-project-short-description h3{
+    font-size: 17px;
+}
+.btn-readmore-2{
+    cursor: pointer;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
 /*End plan*/
+#descunt .modal-header{
+    background: #d82800;
+}
+#descunt .modal-header h4{
+    color: #fff;
+}
+#descunt .modal-header .close{
+    color: #fff;
+    opacity: 1;
+    outline: none;
+}
 /*RTL*/
 .lm-item-list li i{
     position: absolute;

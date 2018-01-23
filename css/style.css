@@ -5800,9 +5800,9 @@ ul li.prices span.price-in-table {
   padding-bottom: 4px;
   text-transform: uppercase;
 }
-.entry-date-project > h5 {
+.entry-date-project > p {
   display: inline-block;
-  font-weight: 600;
+  font-weight: 500;
   min-width: 90px;
 }
 .single-project-short-description:first-child {

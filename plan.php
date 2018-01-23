@@ -55,7 +55,7 @@
 		</div>
 		<!-- Breadcrumbs Area End -->	
 
-        <section class="plan">
+        <section class="plan pb-50">
 
             <div class="lm-tabel">
                 <div class="row">
@@ -128,6 +128,32 @@
 
 
             </div>
+        </section>
+
+        <section class="plan-form">
+            <div class="container">
+                <div class="row" style="border: 1px solid #ed3c3d;">
+                    <div class="col-xs-12">
+                        <form class="p-20">
+                            <p class="form-row-wide pt-20">
+                                <label>
+                                    اختر الخطة
+                                </label>
+                                <select>
+                                    <option class="op-hover">الخطة الفضية</option>
+                                    <option>الخطة الدهبية</option>
+                                    <option>الخطة الالماسية</option>
+                                </select>
+                            </p>
+                            <p class="form-row pt-20">
+                                <input type="submit" value="تأكيد" class="button">
+
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
         <?php include ('footer.php') ?>

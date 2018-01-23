@@ -98,9 +98,9 @@
                                     تفاصيل
                                 </label>
                                 <div id="sumernote" class="summernote  tabcontent">
-                                    <div class="summernotee">
+                                    <textarea class="summernotee">
                                         <p>اضافة تفاصيل</p>
-                                    </div>
+                                    </textarea>
                                 </div>
                                 <p class="form-row-wide">
                                     <label for="b2b" class="required m_bottom_5 d_inline_b">إضافة صورة<span class="required">*</span> <small>(pdf , jpg , png , jpeg)</small></label>
@@ -165,9 +165,9 @@
                                     تفاصيل
                                 </label>
                                 <div id="sumernote" class="summernote  tabcontent">
-                                    <div class="summernotee">
+                                    <textarea class="summernotee">
                                         <p>اضافة تفاصيل</p>
-                                    </div>
+                                    </textarea>
                                 </div>
                                 <p class="form-row-wide">
                                     <label for="b2b" class="required m_bottom_5 d_inline_b">إضافة صورة<span class="required">*</span> <small>(pdf , jpg , png , jpeg)</small></label>
