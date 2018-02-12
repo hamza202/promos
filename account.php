@@ -160,6 +160,32 @@
                                     <option >100%</option>
                                 </select>
                             </p>
+                            <p class="form-row-wide pt-20">
+                                <label>
+                                    القسم الرئيسي
+                                    <span class="required">*</span>
+                                </label>
+                                <select >
+                                    <option >جوالات - تابليت</option>
+                                    <option >اجهزة - الكترونيات</option>
+                                    <option >اثاث - ديكور</option>
+                                    <option >حراج</option>
+                                </select>
+                            </p>
+                            <p class="form-row-wide pt-20">
+                                <label>
+                                    القسم الفرعي
+                                    <span class="required">*</span>
+                                </label>
+                                <select >
+                                    <option >جوالات</option>
+                                    <option >تابليت</option>
+                                    <option >بطاقات شراء</option>
+                                    <option >سيارات للبيع</option>
+                                </select>
+                            </p>
+
+
                             <div class="form-row-wide">
                                 <label class="pt-20">
                                     تفاصيل
@@ -601,6 +627,9 @@
     </div>
 </div>
 <!-- Login Area End -->
+
+
+
 
 <?php include('footer.php') ?>
 <!-- all js here -->
