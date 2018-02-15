@@ -342,13 +342,13 @@ $('input[name="optionsRadios"]').on('change', function () {
     if ($(this).val() == 'update') {
 
         //change to "show update"
-        $("#cont").text("اسم المستخدم");
-        $("#reg-img-label").text("اضافة صورة شخصية");
+        $("#cont").text("user name");
+        $("#reg-img-label").text("Add a photo");
 
     } else {
 
-        $("#cont").text("اسم الشركة");
-        $("#reg-img-label").text("اضافة شعار الشركة");
+        $("#cont").text("Company name");
+        $("#reg-img-label").text("Add company logo");
     }
 });
 
@@ -358,7 +358,7 @@ var password = document.getElementById("password")
 
 function validatePassword() {
     if (password.value != confirm_password.value) {
-        confirm_password.setCustomValidity("كلمة المرور لا تطابق");
+        confirm_password.setCustomValidity("password does not match");
     } else {
         confirm_password.setCustomValidity('');
     }

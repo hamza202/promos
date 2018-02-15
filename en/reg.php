@@ -88,14 +88,14 @@
                                 <!--_________________________________________________________-->
                                 <p class="form-row-wide">
                                     <label id="cont">
-                                        اسم المستخدم
+                                        User name
                                         <span class="required">*</span>
                                     </label>
                                     <input type="text" required/>
                                 </p>
                                 <p class="form-row-wide">
                                     <label for="b2b" class="required m_bottom_5 d_inline_b " >
-                                        <span id="reg-img-label">إضافة صورة شخصية</span>
+                                        <span id="reg-img-label">Add a photo</span>
                                         <span class="required">*</span>
                                         <small>(pdf , jpg , png , jpeg)</small>
                                     </label>

@@ -132,10 +132,7 @@ ul.product-list-widget .content{
     position: relative;
     z-index: 50;
 }
-.address-contact ul li i{
-    margin-left: 18px;
-    margin-right: 0;
-}
+
 .newsletter-area{
     border: none;
 }
@@ -156,6 +153,9 @@ p.form-row input.button{
     color: #fff;
     border: none;
     background: #ed3c3d;
+}
+.single-project-area .btn-readmore-2{
+    float: left;
 }
 p.form-row input.button:hover{
     background: #333;
@@ -687,7 +687,7 @@ ul.recentposts li p i {
     color: #d82800;
 }
 .conditions p{
-    text-align: right ;
+    text-align: left ;
     font-size: 17px;
     color: #333;
 }
@@ -696,5 +696,8 @@ ul.recentposts li p i {
 }
 .Partners img{
     margin-bottom: 20px;
+}
+.conditions p i::before{
+    content: "\f105";
 }
 
