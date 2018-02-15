@@ -22,6 +22,107 @@
     <link rel="stylesheet" href="css/fileinput.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/space.css">
+    <style>
+        .top {
+            box-shadow: 0 -15px 15px -15px #2C3E50;
+        }
+
+        .right {
+            box-shadow: 15px 0 15px -15px #2C3E50;
+        }
+
+        .bottom {
+            box-shadow: 0 15px 15px -15px #2C3E50;
+        }
+
+        .left {
+            box-shadow: -15px 0 15px -15px #2C3E50;
+        }
+
+        .all {
+            box-shadow: 0 0 15px #2C3E50;
+        }
+
+        .inset-top {
+            box-shadow: inset 0 15px 15px -15px #2C3E50;
+        }
+
+        .inset-right {
+            box-shadow: inset -15px 0 15px -15px #2C3E50;
+        }
+
+        .inset-bottom {
+            box-shadow: inset 0 -15px 15px -15px #2C3E50;
+        }
+
+        .inset-left {
+            box-shadow: inset 15px 0 15px -15px #2C3E50;
+        }
+
+        .inset-all {
+            box-shadow: inset 0 0 15px #2C3E50;
+        }
+
+        .left-right {
+            box-shadow: -15px 0 15px -15px #2C3E50, 15px 0 15px -15px #2C3E50;
+        }
+
+        .top-bottom {
+            box-shadow: 0 -15px 15px -15px #2C3E50, 0 15px 15px -15px #2C3E50;
+        }
+
+        .inset-left-right {
+            box-shadow: inset 15px 0 15px -15px #2C3E50, inset -15px 0 15px -15px #2C3E50;
+        }
+
+        .inset-top-bottom {
+            box-shadow: inset 0 15px 15px -15px #2C3E50, inset 0 -15px 15px -15px #2C3E50;
+        }
+
+
+
+        .box p {
+            margin: 20px;
+            font-size: 1.1em;
+            color: #fff;
+        }
+
+        .box {
+            max-width: 710px;
+            text-align: justify;
+        }
+        .box {
+            display: inline-block;
+            height: 120px;
+            width: 160px;
+            text-align: center;
+            margin: 30px 10px;
+            position: relative;
+            background: #fe603b;
+        }
+        .box span{
+            display: block;
+            height: 30px;
+            padding-left: 2px;
+            width: 30px;
+            line-height: 33px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 50%;
+            background: #fff;
+            color: #fe603b;
+            margin: 0 auto;
+        }
+        .box:after {
+
+        }
+        .flix{
+            display: block;
+            justify-content: center;
+            text-align: center;
+        }
+
+    </style>
 
     <!-- modernizr JS -->
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -53,7 +154,53 @@
         </div>
     </div>
 </div>
+
 <!-- Breadcrumbs Area End -->
+
+<div class="container" dir="">
+    <div class="flix">
+    <div class="box left">
+        <p>
+            عدد المقالات
+        </p>
+        <span>
+            5
+        </span>
+    </div>
+    <div class="box bottom">
+        <p>
+            عدد المقالات
+        </p>
+        <span>
+            5
+        </span>
+    </div>
+    <div class="box all">
+        <p>
+            عدد المقالات
+        </p>
+        <span>
+            5
+        </span>
+    </div>
+    <div class="box top">
+        <p>
+            عدد المقالات
+        </p>
+        <span>
+            5
+        </span>
+    </div>
+    <div class="box right">
+        <p>
+            عدد المقالات
+        </p>
+        <span>
+            5
+        </span>
+    </div>
+    </div>
+</div>
 <!-- Login Area Start -->
 <div class="section-padding">
     <div class="container">

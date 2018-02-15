@@ -777,7 +777,19 @@ p.font-15{
     opacity: 1;
     outline: none;
 }
-/*RTL*/
+a:hover{
+    color: #d82800;
+}
+.panel-default > .panel-heading::before{
+   background: #d82800 none repeat scroll 0 0;
+}
+.intro{
+    font-size: 18px;
+}
+.team-member-list .single-member{
+    margin-bottom: 30px;
+}
+/*RTL /////////////////*/
 .lm-item-list li i{
     position: absolute;
     left: 0;
@@ -803,4 +815,16 @@ a.btn-readmore-2{
 .single-product-inner {
     direction: rtl;
 }
+.panel-title a.collapsed::after,
+.panel-title a::after{
+    float: left;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.panel-title a{
+    font-size: 18px;
+}
+
 /*END RTL*/

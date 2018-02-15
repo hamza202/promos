@@ -1,34 +1,7 @@
 (function ($) {
  "use strict";
 
-    $('input[name="optionsRadios"]').on('change', function () {
-        if ($(this).val() == 'update') {
 
-            //change to "show update"
-            $("#cont").text("اسم المستخدم");
-            $("#reg-img-label").text("اضافة صورة شخصية");
-
-        } else {
-
-            $("#cont").text("اسم الشركة");
-            $("#reg-img-label").text("اضافة شعار الشركة");
-        }
-    });
-
-
-    var password = document.getElementById("password")
-        , confirm_password = document.getElementById("confirm_password");
-
-    function validatePassword() {
-        if (password.value != confirm_password.value) {
-            confirm_password.setCustomValidity("كلمة المرور لا تطابق");
-        } else {
-            confirm_password.setCustomValidity('');
-        }
-    }
-
-    password.onchange = validatePassword;
-    confirm_password.onkeyup = validatePassword;
 
     /*----------------------------
     1. Search By Category
@@ -364,4 +337,32 @@
         animation: 'fade'
     });		
 	
-})(jQuery); 
+})(jQuery);
+$('input[name="optionsRadios"]').on('change', function () {
+    if ($(this).val() == 'update') {
+
+        //change to "show update"
+        $("#cont").text("اسم المستخدم");
+        $("#reg-img-label").text("اضافة صورة شخصية");
+
+    } else {
+
+        $("#cont").text("اسم الشركة");
+        $("#reg-img-label").text("اضافة شعار الشركة");
+    }
+});
+
+
+var password = document.getElementById("password")
+    , confirm_password = document.getElementById("confirm_password");
+
+function validatePassword() {
+    if (password.value != confirm_password.value) {
+        confirm_password.setCustomValidity("كلمة المرور لا تطابق");
+    } else {
+        confirm_password.setCustomValidity('');
+    }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;

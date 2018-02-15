@@ -106,7 +106,7 @@
                         <h3 class="footer-widget-title">مساعدة</h3>
                         <div class="text-widget">
                             <ul>
-                                <li><a href="#">اسألة شائعة</a></li>
+                                <li><a href="faq.php">اسألة شائعة</a></li>
                                 <li><a href="#">نبذة عنا</a></li>
                                 <li><a href="#">تواصل معنا</a></li>
                             </ul>

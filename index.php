@@ -1514,10 +1514,10 @@
 <script src="js/plugins.js"></script>
 <!-- main js -->
 <script>
-    (function ($) {
-        "use strict";
-        window.loader(window.open("http://www.google.com"));
-    })(jQuery);
+    // (function ($) {
+    //     "use strict";
+    //     window.loader(window.open("http://www.google.com"));
+    // })(jQuery);
 </script>
 <script src="js/main.js"></script>
 </body>
